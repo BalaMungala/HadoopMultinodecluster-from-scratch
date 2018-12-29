@@ -1,0 +1,12 @@
+<property>
+<name>fs.defaultFS</name>
+<value>hdfs://master.hadoop.com:8020</value>
+</property>
+<property>
+<name>hadoop.proxyuser.mapred.groups</name>
+<value>*</value>
+</property>
+<property>
+<name>hadoop.proxyuser.mapred.hosts</name>
+<value>*</value>
+</property>
