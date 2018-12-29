@@ -1,0 +1,44 @@
+
+<allocations>
+<defaultQueueSchedulingPolicy>fair</defaultQueueSchedulingPolicy>
+<queue name="prod">
+<minResources>1024 mb, 1 vcores</minResources>
+<maxResources>2120 mb, 2 vcores</maxResources>
+<weight>40</weight>
+<schedulingPolicy>fifo</schedulingPolicy>
+</queue>
+<queue name="development">
+<minResources>1024 mb, 1 vcores</minResources>
+<maxResources>2120 mb, 2 vcores</maxResources>
+<weight>60</weight>
+<queue name="HR"/>
+<queue name="operation"/>
+</queue>
+</allocations>
+
+
+
+**********************************************************************************************
+under cludera dashborad:-
+clk :- cluster > yarn >configuration > filter " fair" 
+select fairschedular out of three option
+
+serach for :- Fair schedular XMLadvanced  configuration snippet >>  clk on + sign  and under description " view as xml "...
+
+uncheck the box "fair schedularUser  As default queue
+
+clk save changes.
+
+clk cluster and restart services "action and choose restart option
+***********************************************************************************************
+check "Dynamic resource allocation "
+under yarn > Resource Pools > configuration
+
+*********************************************************************************************
+goto webui > RM webUi
+search " schedular"
+
+
+
+
+
