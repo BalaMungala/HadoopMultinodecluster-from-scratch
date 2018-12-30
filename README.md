@@ -1,2 +1,2 @@
-# Building-Multinode-cluster-from-scratch
+# HadoopMultinodecluster-from-scratch
 Building Multi Node Cluster from scratch
